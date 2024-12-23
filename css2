@@ -1,0 +1,56 @@
+﻿@font-face {
+  font-family: 'Finlandica';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz76Cy_Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz75Ky_Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz7361_Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz70e1_Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19AJrEjx.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dlq0jx.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Finlandica';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dcq0jx.ttf) format('truetype');
+}

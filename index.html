@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="app/builder/images/logo5.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Home</title>
+  <link rel="stylesheet" href="877999/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/web/assets/mobirise-icons/mobirise-icons.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/bootstrap/css/bootstrap.min.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/smart-cart/minicart-theme.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/socicon/css/styles.css?rnd=1734545872497">
+  <link rel="stylesheet" href="877999/assets/theme/css/style.css?rnd=1734545872497">
+  <link rel="preload" href="css2?family=Finlandica:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css2?family=Finlandica:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="877999/assets/css/mbr-additional.css?rnd=1734545872497" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 4s linear animationHeight;
+  -moz-animation: 4s linear animationHeight;
+    -o-animation: 4s linear animationHeight;
+       animation: 4s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 4s linear animationBanner;
+  -moz-animation: 4s linear animationBanner;
+    -o-animation: 4s linear animationBanner;
+       animation: 4s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+
+  
+  <section data-bs-version="5.1" class="header9 expertm5 cid-utwZpwGnqD" id="aheader9-2">
+
+    
+
+    
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(33, 36, 40);"></div>
+
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-lg-9 col-text">
+                <h1 class="mbr-section-title mbr-fonts-style display-7">
+                    WELCOME TO MY WORLD
+                </h1>
+                <h1 class="mbr-section-subtitle mbr-fonts-style display-2">
+                    <strong>Hi, I’m DiamondJo</strong><br><strong>
+                        a Webcam model.</strong></h1>
+                <p class="mbr-text mbr-fonts-style display-7">Best Tiny Super Blonde that you ever meet
+<br>Keep out! I am Radioactive Material!<br>If you visited this site, that means <strong><em>I'm LIVE right now!</em></strong><br>Click the <em><strong>JOIN NOW FOR FREE</strong></em> button and <strong><em>REGISTER</em></strong>&nbsp;to chat with me.</p>
+                <div class="mbr-section-btn custom-section-btn"><a class="btn btn-primary display-7" href="https://bngprm.com/promo.php?type=direct_link&v=2&c=803390&models[]=diamondjo" target="_blank">JOIN NOW FOR FREE</a></div>
+                <div class="social-container">
+                    <p class="social-title mbr-fonts-style display-4">Follow me right now!</p>
+                    <div class="social-list justify-content-start">
+                        <div class="soc-item">
+                            <a href="https://bngprm.com/promo.php?type=direct_link&v=2&c=803390&models[]=diamondjo" target="_blank"><span class="mbr-iconfont mbr-iconfont-social mbri-responsive"></span></a>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header6 expertm5 cid-thXYCIAGcs" id="aheader6-6">
+
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <div class="col-12 col-lg-7 col-text">
+                <div class="text-wrapper">
+                    <h1 class="mbr-section-title mbr-fonts-style display-7">A FEW WORDS ABOUT ME</h1>
+                    <h1 class="mbr-section-subtitle mbr-fonts-style display-2"><strong>Read My Story</strong></h1>
+                    <p class="mbr-text mbr-fonts-style display-7">Here you will find exclusive content that I create just for you.<br>On my page, I host live broadcasts, share my personal moments, photos and videos that you won't find anywhere else.<br><br>📸 Photo shoots&nbsp;and videos<br>🎥 Live video broadcasts<br>💬 Private messages<br>🎁 Surprises and bonuses<br>🌟 Positive vibes<br><br>Join me and become a part of my world! 🌸
+                    </p>
+                    <div class="mbr-section-btn custom-section-btn"><a class="btn btn-primary display-7" href="https://bngprm.com/promo.php?type=direct_link&v=2&c=803390&models[]=diamondjo" target="_blank">JOIN NOW FOR FREE</a></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 col-img">
+                <div class="video-wrapper">
+                    <div class="row video-row">
+                        <div class="col-12">
+                            <div class="box">
+                                <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
+                                    <img src="877999/assets/images/background9-h_m4u674rl-917x991.jpg" alt="">
+                                    <div class="icon-wrap">
+                                        <a class="text-primary" href="https://bngprm.com/promo.php?type=direct_link&v=2&c=803390&models[]=diamondjo" target="_blank">
+                                            <div class="video-icon-wrap">
+                                                <div class="video-icon-bg-box">
+                                                     <span class="mbr-iconfont socicon mobi-mbri-add-submenu mbri-rocket mbri-touch mbri-add-submenu" style="color: rgb(255, 50, 112); fill: rgb(255, 50, 112); font-size: 25px;"></span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="modalWindow" style="display: none;">
+            <div class="modalWindow-container">
+                <div class="modalWindow-video-container">
+                    <div class="modalWindow-video">
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1"></iframe>
+                    </div>
+                    <a class="close" role="button" data-dismiss="modal" data-bs-dismiss="modal">
+                        <span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
+                        <span class="sr-only visually-hidden">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery3 expertm5 cid-uty39K8Fz2" id="agallery3-3">
+    
+
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mbr-section-head">
+                    
+                    <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-2">
+                       <strong>My Portfolio</strong>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row card-row justify-content-start">
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery4-h_m4u47is2.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">GOOD MORNING</h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                Let's start the day with positivity and a smile. I hope you enjoy this picture.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery3-h_m4u47vo2.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">POSITIVE PHOTO SHOOT</h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                Today's photo shoot was just magical! Enjoy this moment with me.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery2-h_m4u4g3e1.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">
+                            NATURE
+                        </h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                I love spending time in nature. These moments energize and inspire me. I will share this beauty with you!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery1-h_m4u56p49.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">I'M AT HOME</h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                The homey atmosphere allows you to relax.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery6-h_m4u5gvrs.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">BRIGHT STYLE</h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                This look is a mix of elegance and sexy.&nbsp;</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery5-h_m4u5w6ei.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h5 class="card-title mbr-fonts-style display-7">
+                            SEXUALITY
+                        </h5>
+                        <p class="card-text mbr-fonts-style display-4">
+                            <a href="#" class="text-white">
+                                I love to open up and get more liberated with each shoot.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery5 expertm5 cid-utwZh3sFPu" id="agallery5-1">
+    
+
+    
+    
+    <div class="container">
+        <div class="row">
+            
+        </div>
+        <div class="row card-row justify-content-start">
+            <div class="item features-image col-12 col-md-6">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery10-h_m4u6nzuf.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="item features-image col-12 col-md-6">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <img src="877999/assets/images/gallery11-h_m4u4wvti.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="slider2 expertm5 cid-thXZNytvBc" id="aslider2-9">
+    
+
+    
+    
+    <div class="container">
+        <div class="row card-row justify-content-center">
+            <div class="item-card col-12 d-flex col-lg-11">
+                <div class="item-wrap">
+                    <div class="row slider-row">
+                        <div class="col-12">
+                            <div class="carousel-wrapper">
+                                <div class="carousel slide" id="uxkJI8YVtB" data-interval="5000" data-bs-interval="5000">
+                                    <ol class="carousel-indicators">
+                                        <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#uxkJI8YVtB" data-bs-target="#uxkJI8YVtB"></li>
+                                        <li data-slide-to="1" data-bs-slide-to="1" data-target="#uxkJI8YVtB" data-bs-target="#uxkJI8YVtB"></li>
+                                        <li data-slide-to="2" data-bs-slide-to="2" data-target="#uxkJI8YVtB" data-bs-target="#uxkJI8YVtB"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item slider-image item active">
+                                            <div class="carousel-item-wrapper item-wrapper">
+                                                <img src="877999/assets/images/pexels-karolina-grabowska-571-h_m4u7e4fg-1279x853.jpg" alt="" data-slide-to="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item slider-image item">
+                                            <div class="carousel-item-wrapper item-wrapper">
+                                                <img src="877999/assets/images/pexels-pavel-danilyuk-7801341-h_m4u7bbqv-1280x855.jpg" alt="" data-slide-to="2">
+                                            </div>
+                                        </div><div class="carousel-item slider-image item">
+                                            <div class="carousel-item-wrapper item-wrapper">
+                                                <img src="877999/assets/images/pexels-julia-larson-6455955-h_m4u7bl9u-1280x853.jpg" alt="" data-slide-to="3">
+                                            </div>
+                                        </div>
+
+                                        
+                                    </div>
+                                    <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#uxkJI8YVtB">
+                                        <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                                        <span class="sr-only visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#uxkJI8YVtB">
+                                        <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                                        <span class="sr-only visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row text-row align-items-center">
+                        <div class="col-12 col-lg-9 flex-grow-1">
+                            <h5 class="card-title mbr-fonts-style display-5">FOR MY FAVORITE FANS</h5>
+                            <h5 class="card-subtitle mbr-fonts-style display-7">Beauty in every line<br><br><div>Every line of my body is the result of taking care of myself and loving my image. I am proud of my figure and I want to share these moments with you to inspire you to love yourself and your body.<br><br></div><div>Harmony and grace<br><br></div><div>My body is all about harmony and grace, which I strive to maintain every day. I believe that beauty is not only about appearance, but also about inner strength and confidence. I hope these photos will help you to see the beauty in yourself and inspire you to new achievements.<br><br></div><div>Enjoy every moment<br><br></div><div>May these pictures give you joy and inspiration. Enjoy every moment, appreciate your body and don't forget that you are unique and beautiful.<br><br></div><div>🌟Thank you for being with me! 🌟</div></h5>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header3 expertm5 cid-thY1CmElBu" id="aheader3-b">
+
+    
+
+    
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(33, 36, 40);"></div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-12">
+                <h1 class="mbr-section-title align-center mbr-fonts-style mb-0 display-2"><strong>Join the live stream!<br></strong></h1>
+                <p class="mbr-text align-center mbr-fonts-style display-7">
+                    Don't miss the moment!
+                </p>
+                <div class="mbr-section-btn align-center custom-section-btn"><a class="btn btn-primary display-7" href="https://bngprm.com/promo.php?type=direct_link&v=2&c=803390&models[]=diamondjo" target="_blank">JOIN NOW FOR FREE</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="list1 expertm5 cid-thY3NbgZJm" id="alist1-f">
+
+    
+
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="mbr-section-head">
+                    <h3 class="mbr-section-title mb-0 mbr-fonts-style display-7">
+                        CHECK OUT MY FAQ SECTION
+                    </h3>
+                    <h4 class="mbr-section-subtitle mb-0 mbr-fonts-style display-2">
+                        <strong>Do you have any Question</strong>
+                    </h4>
+                </div>
+                <div id="bootstrap-accordion_6" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_6" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">
+                                    1. How can I subscribe to your content?</h6>
+                                
+                            </a>
+                        </div>
+                        <div id="collapse1_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text mb-0 display-7">
+                                    Go to my BongaCams page by clicking the “JOIN NOW FOR FREE” button. You will need to create an account if you don't already have one.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_6" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">
+                                    2. What I do on webcam?</h6>
+                                
+                            </a>
+                        </div>
+                        <div id="collapse2_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text mb-0 display-7">Dildo play<br>Squirt<br>Blowjob<br>Cumshot<br>Ejaculation<br>Double penetration<br>Masturbation<br>Fucking hard<br>Pussyrubbing<br>Ass fucking<br>Chatting<br></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_6" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">
+                                    3. How can I find out about your special offers and promotions?</h6>
+                                
+                            </a>
+                        </div>
+                        <div id="collapse3_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text mb-0 display-7">
+                                    I regularly post information about special offers and promotions on my social media page. Keep an eye out for updates!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_6" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    4. Can I request a show?</font></font></h6>
+                                
+                            </a>
+                        </div>
+                        <div id="collapse4_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text mb-0 display-7">Yes, you can request actions that match my tip menu on the site.<br>You can also control the vibration of the lovens for my and your satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_6" aria-expanded="false" aria-controls="collapse5">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    5. How can I not miss the live broadcast?</font></font></h6>
+                                
+                            </a>
+                        </div>
+                        <div id="collapse5_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text mb-0 display-7">
+                                    Click the JOIN NOW FOR FREE button and REGISTER, then subscribe to my notifications on the BongaCams website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer2 expertm5 cid-thXV9fHxsF" once="footers" id="afooter2-2">
+
+    
+
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="border-item">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="copyright-container w-100">
+                    <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                        © Copyright 2024 - All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="877999/assets/web/assets/jquery/jquery.min.js?rnd=1734545872497"></script>
+  <script src="877999/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1734545872497"></script>
+  <script src="877999/assets/smoothscroll/smooth-scroll.js?rnd=1734545872497"></script>
+  <script src="877999/assets/ytplayer/index.js?rnd=1734545872497"></script>
+  <script src="877999/assets/smart-cart/minicart.js?rnd=1734545872497"></script>
+  <script src="877999/assets/smart-cart/minicart-customizer.js?rnd=1734545872497"></script>
+  <script src="877999/assets/playervimeo/vimeo_player.js?rnd=1734545872497"></script>
+  <script src="877999/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1734545872497"></script>
+  <script src="877999/assets/theme/js/script.js?rnd=1734545872497"></script>
+  
+  
+  
+
+</body>
+</html>
